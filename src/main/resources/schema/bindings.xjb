@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bindings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          version="2.0"
+          xmlns="http://java.sun.com/xml/ns/jaxb"
+          xsi:schemaLocation="http://java.sun.com/xml/ns/jaxb http://java.sun.com/xml/ns/jaxb/bindingschema_2_0.xsd"
+          xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+          schemaLocation="test.xsd">
+    <globalBindings generateValueClass="false">
+        <xjc:superInterface name="com.test.xsd.TestInterface" />
+        <xjc:serializable uid="3099325368888314454" />
+        <xjc:simple />
+    </globalBindings>
+    <schemaBindings>
+        <package name="com.test.xsd.impl"/>
+    </schemaBindings>
+</bindings>
